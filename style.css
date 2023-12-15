@@ -38,6 +38,8 @@ footer {
 .content {
   flex-grow: 1;
   padding-left: 320px;
+  margin-left: 300px; /* Adjusted margin */
+  z-index: 0;
 }
 
 @media (max-width: 767px) {
@@ -54,6 +56,7 @@ footer {
 
   .content {
     padding-left: 20px;
+    margin-left: 0; /* Reset margin */
   }
 }
 

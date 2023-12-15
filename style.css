@@ -16,7 +16,6 @@ footer {
 
 .container {
   display: flex;
-  overflow: hidden; /* Added overflow property */
 }
 
 .col-md-3 {
@@ -36,24 +35,23 @@ footer {
 
 .content {
   flex-grow: 1;
-  padding-left: 320px;
-  position: relative; /* Added position property */
-  z-index: 0; /* Added z-index property */
+  margin-left: 300px; /* Adjusted from padding-left to margin-left */
+  z-index: 0;
 }
 
 @media (max-width: 767px) {
   .container {
-    flex-direction: column; /* Adjusted flex-direction for smaller screens */
+    flex-direction: column;
   }
 
   .col-md-3 {
-    width: 100%; /* Full width for smaller screens */
-    flex: 0 0 auto; /* Reset flex values */
-    position: relative; /* Reset position */
+    width: 100%;
+    flex: 0 0 auto;
+    position: relative;
   }
 
   .content {
-    padding-left: 20px;
+    margin-left: 0; /* Adjusted from padding-left to margin-left */
   }
 }
 

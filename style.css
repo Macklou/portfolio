@@ -106,3 +106,21 @@ footer {
   text-align: center;
   color: #666;
 }
+.container {
+  display: flex;
+}
+
+.header {
+  width: 300px;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  padding-top: 20px;
+  box-shadow: var(--box-shadow);
+  background-color: var(--secondary-color);
+}
+
+.content {
+  flex-grow: 1;
+  padding-left: 320px;
+}

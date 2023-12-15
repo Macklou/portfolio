@@ -8,6 +8,45 @@ body {
   margin-top: 100px;
 }
 
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #666;
+}
+
+.container {
+  display: flex;
+}
+
+.col-md-3 {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  box-shadow: var(--box-shadow);
+  background-color: var(--secondary-color);
+}
+
+.content {
+  flex-grow: 1;
+  padding-left: 320px;
+}
+
+@media (min-width: 768px) {
+  .col-md-3 {
+    width: 300px;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    padding-top: 20px;
+  }
+
+  .content {
+    padding-left: 320px;
+  }
+}
+
 h1,
 h2,
 h3 {
@@ -86,6 +125,7 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
 .hero {
   text-align: center;
   padding: 100px 20px;
@@ -100,27 +140,4 @@ p {
 
 .hero p {
   font-size: 1.2em;
-}
-footer {
-  margin-top: 20px;
-  text-align: center;
-  color: #666;
-}
-.container {
-  display: flex;
-}
-
-.header {
-  width: 300px;
-  position: fixed;
-  height: 100%;
-  overflow-y: auto;
-  padding-top: 20px;
-  box-shadow: var(--box-shadow);
-  background-color: var(--secondary-color);
-}
-
-.content {
-  flex-grow: 1;
-  padding-left: 320px;
 }

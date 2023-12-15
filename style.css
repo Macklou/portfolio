@@ -5,7 +5,7 @@
 }
 
 body {
-  margin-top: 100px;
+  margin: 0;
 }
 
 footer {
@@ -19,11 +19,10 @@ footer {
 }
 
 .col-md-3 {
-  width: 100%;
-}
-
-.header {
-  width: 100%;
+  width: 300px;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
   box-shadow: var(--box-shadow);
   background-color: var(--secondary-color);
 }
@@ -33,17 +32,24 @@ footer {
   padding-left: 320px;
 }
 
-@media (min-width: 768px) {
+.project {
+  margin-bottom: 40px; /* Adjust as needed */
+}
+
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+
   .col-md-3 {
-    width: 300px;
-    position: fixed;
-    height: 100%;
-    overflow-y: auto;
-    padding-top: 20px;
+    width: 100%;
+    position: relative;
+    height: auto;
+    overflow-y: visible;
   }
 
   .content {
-    padding-left: 320px;
+    padding-left: 20px; /* Adjust as needed */
   }
 }
 

@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #0f2b5b;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -123,4 +123,6 @@ footer {
 .content {
   flex-grow: 1;
   padding-left: 320px;
+}
+.background {
 }

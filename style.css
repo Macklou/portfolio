@@ -16,6 +16,7 @@ footer {
 
 .container {
   display: flex;
+  overflow: hidden;
 }
 
 .col-md-3 {
@@ -33,9 +34,11 @@ footer {
   width: 100%;
 }
 
-.col-md-9 {
-  margin-left: 320px;
-  padding: 20px; /* Adjust as needed */
+.content {
+  flex-grow: 1;
+  padding-left: 320px;
+  position: relative;
+  z-index: 0;
 }
 
 @media (max-width: 767px) {
@@ -47,12 +50,10 @@ footer {
     width: 100%;
     flex: 0 0 auto;
     position: relative;
-    z-index: 0;
   }
 
-  .col-md-9 {
-    margin-left: 0;
-    padding: 20px; /* Adjust as needed */
+  .content {
+    padding-left: 20px;
   }
 }
 
@@ -78,6 +79,7 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
+  margin-bottom: 20px; /* Added margin to paragraphs */
 }
 
 .navigation-links {
@@ -90,21 +92,22 @@ p {
   margin: 20px;
 }
 
-.primary-link {
+.primary-link,
+.secondary-link {
+  display: inline-block; /* Prevents the inline margin issue */
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  background: var(--primary-color);
   box-shadow: var(--box-shadow);
+}
+
+.primary-link {
+  background: var(--primary-color);
   color: white;
 }
 
 .secondary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }

@@ -18,10 +18,6 @@ footer {
   display: flex;
 }
 
-.col-md-3 {
-  width: 100%;
-}
-
 .header {
   width: 100%;
   box-shadow: var(--box-shadow);
@@ -30,20 +26,15 @@ footer {
 
 .content {
   flex-grow: 1;
-  padding-left: 320px;
 }
 
 @media (min-width: 768px) {
   .col-md-3 {
-    width: 300px;
+    width: 100%;
     position: fixed;
     height: 100%;
     overflow-y: auto;
     padding-top: 20px;
-  }
-
-  .content {
-    padding-left: 320px;
   }
 }
 

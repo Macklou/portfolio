@@ -52,6 +52,7 @@ footer {
 
   .col-md-9 {
     margin-left: 0;
+    padding: 20px; /* Adjust as needed */
   }
 }
 

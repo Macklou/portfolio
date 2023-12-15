@@ -38,10 +38,10 @@ footer {
     height: 100%;
     overflow-y: auto;
     padding-top: 20px;
-    z-index: 1; /* Ensure the sidebar stays behind content */
+    z-index: 1;
   }
 
   .content {
-    margin-left: 320px; /* Adjusted margin instead of padding */
+    margin-left: 320px;
   }
 }

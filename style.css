@@ -134,7 +134,7 @@ p {
 
 .hero {
   text-align: center;
-  padding: 100px 20px;
+  padding: 100px 20px; /* Adjust the top padding as needed */
   background-color: #fff;
   color: #000000;
 }
@@ -142,6 +142,7 @@ p {
 .hero h1 {
   font-size: 2em;
   margin-bottom: 20px;
+  margin-top: 20px; /* Add this line to lower the heading by 20 pixels */
 }
 
 .hero p {

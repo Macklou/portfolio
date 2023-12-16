@@ -30,13 +30,13 @@ footer {
 .content {
   flex-grow: 1;
   padding-left: 320px;
+  padding-top: 100px; /* Adjust the top padding as needed */
 }
 
 .project {
   margin-bottom: 40px; /* Adjust as needed */
 }
 
-/* Media Query for responsiveness */
 @media (max-width: 767px) {
   .container {
     flex-direction: column;

@@ -160,10 +160,3 @@ p {
 .hero p {
   font-size: 1.2em;
 }
-.navbar-nav a {
-  border: 1px solid black;
-}
-
-.navbar-nav .nav-link {
-  background-color: var(--secondary-color);
-}

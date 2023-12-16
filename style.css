@@ -163,6 +163,7 @@ p {
 .navbar-nav a {
   border: 1px solid black;
 }
+
 .navbar-nav a {
-  color: black;
+  background-color: var(--secondary-color);
 }

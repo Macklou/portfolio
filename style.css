@@ -91,22 +91,24 @@ p {
 }
 
 .primary-link {
-  border-radius: 4px;
+  border-radius: 20px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  display: inline-block;
 }
 
 .secondary-link {
-  border-radius: 4px;
+  border-radius: 20px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  display: inline-block;
 }
 
 .homepage-link {

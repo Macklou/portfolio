@@ -93,12 +93,10 @@ p {
   display: flex;
   margin-top: 40px;
   justify-content: center;
-  color: #000000;
 }
 
 .navigation-links a {
   margin: 20px;
-  color: #000000;
 }
 
 .primary-link {

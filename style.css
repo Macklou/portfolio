@@ -25,19 +25,19 @@ footer {
   overflow-y: auto;
   box-shadow: var(--box-shadow);
   background-color: var(--secondary-color);
-  margin-top: 150px;
   padding: 20px;
 }
 
 .content {
   flex-grow: 1;
-  padding-left: 320px;
+  margin-left: 320px; /* Adjust the left margin as needed */
   padding-top: 100px; /* Adjust the top padding as needed */
 }
 
 .project {
   margin-bottom: 40px; /* Adjust as needed */
 }
+
 .header {
   width: 100%;
   box-shadow: var(--box-shadow);
@@ -59,7 +59,7 @@ footer {
   }
 
   .content {
-    padding-left: 20px; /* Adjust as needed */
+    margin-left: 20px; /* Adjust as needed */
   }
 }
 

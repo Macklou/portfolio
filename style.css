@@ -146,8 +146,8 @@ p {
 
 .hero {
   text-align: center;
-  padding: 100px 20px; /* Adjust the top padding as needed */
-  background-color: #fff;
+  padding: 100px 50px; /* Adjust the top padding as needed */
+  background-color: #f5f2fe;
   color: #000000;
 }
 

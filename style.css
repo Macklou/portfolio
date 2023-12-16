@@ -36,6 +36,12 @@ footer {
 .project {
   margin-bottom: 40px; /* Adjust as needed */
 }
+.header {
+  width: 100%;
+  box-shadow: var(--box-shadow);
+  background-color: var(--secondary-color);
+  border-radius: 20px; /* Add this line for rounded edges */
+}
 
 @media (max-width: 767px) {
   .container {

@@ -26,24 +26,25 @@ footer {
   box-shadow: var(--box-shadow);
   background-color: var(--secondary-color);
   padding: 20px;
+  z-index: 1000; /* Add this line to ensure the box appears on top of other elements */
 }
-
 .content {
   flex-grow: 1;
-  margin-left: 320px; /* Adjust the left margin as needed */
-  padding-top: 100px; /* Adjust the top padding as needed */
+  margin-left: 320px;
+  padding-top: 100px;
 }
 
 .project {
-  margin-bottom: 40px; /* Adjust as needed */
+  margin-bottom: 40px;
 }
 
 .header {
   width: 100%;
   box-shadow: var(--box-shadow);
   background-color: var(--secondary-color);
-  border-radius: 20px; /* Add this line for rounded edges */
+  border-radius: 20px;
   padding: 20px;
+  z-index: 1000; /* Add this line to ensure the box appears on top of other elements */
 }
 
 @media (max-width: 767px) {
@@ -59,7 +60,7 @@ footer {
   }
 
   .content {
-    margin-left: 20px; /* Adjust as needed */
+    margin-left: 20px;
   }
 }
 
@@ -146,7 +147,7 @@ p {
 
 .hero {
   text-align: center;
-  padding: 100px 50px; /* Adjust the top padding as needed */
+  padding: 100px 50px;
   background-color: #f5f2fe;
   color: #000000;
 }
@@ -154,7 +155,7 @@ p {
 .hero h1 {
   font-size: 2em;
   margin-bottom: 20px;
-  margin-top: 75px; /* Add this line to lower the heading by 20 pixels */
+  margin-top: 75px;
 }
 
 .hero p {

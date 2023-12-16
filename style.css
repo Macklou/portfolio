@@ -164,6 +164,6 @@ p {
   border: 1px solid black;
 }
 
-.navbar-nav a {
+.navbar-nav .nav-link {
   background-color: var(--secondary-color);
 }

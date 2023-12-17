@@ -184,3 +184,43 @@ p {
 .progress-bar {
   border-radius: 10px;
 }
+.about-header {
+  font-size: 36px; /* Adjust the font size for the about page header */
+  margin-top: 20px; /* Adjust the top margin for the about page header */
+}
+
+.about-circle-photo {
+  border-radius: 50%;
+  width: 100px; /* Adjust the width of the circular photo */
+  height: 100px; /* Adjust the height of the circular photo */
+  margin: 20px auto; /* Center the circular photo and add margin */
+  display: block;
+}
+
+.about-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+@media (max-width: 767px) {
+  .about-circle-photo {
+    width: 80px; /* Adjust the width of the circular photo for smaller screens */
+    height: 80px; /* Adjust the height of the circular photo for smaller screens */
+  }
+
+  .about-header {
+    font-size: 24px; /* Adjust the font size for smaller screens */
+    margin-top: 10px; /* Adjust the top margin for smaller screens */
+  }
+
+  .about-buttons button {
+    padding: 8px 16px; /* Adjust button padding for smaller screens */
+    margin: 0 5px; /* Adjust button margin for smaller screens */
+  }
+}

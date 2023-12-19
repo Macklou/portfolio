@@ -98,6 +98,8 @@ p {
   display: flex;
   margin-top: 40px;
   justify-content: center;
+  flex-direction: column; /* Add this line to stack items vertically */
+  align-items: center; /* Add this line to center items horizontally */
 }
 
 .navigation-links a {

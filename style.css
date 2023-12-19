@@ -27,7 +27,9 @@ footer {
   background-color: var(--secondary-color);
   padding: 20px;
   z-index: 1000; /* Add this line to ensure the box appears on top of other elements */
-  text-align: center;
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
 }
 .content {
   flex-grow: 1;
@@ -217,13 +219,24 @@ p {
   background-color: #f5f2fe;
   padding: 100px;
   text-align: center;
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
 }
 
 #connect h2 {
-  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  padding: 50px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
 }
 
 .social-links a {
   display: block;
   margin-bottom: 20px;
+  text-align: center;
 }

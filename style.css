@@ -175,15 +175,6 @@ p {
   display: block;
 }
 
-.about-paragraphs {
-  border-bottom: 1px solid #ddd;
-  padding: 30px;
-}
-
-.about-paragraphs p {
-  margin: 10px;
-}
-
 .about-buttons {
   text-align: center;
   margin-top: 20px;
@@ -191,33 +182,36 @@ p {
 
 .about-buttons button {
   margin: 0 10px;
-  padding: 10px 20px;
+  padding: 15px 30px; /* Updated padding to match the homepage buttons */
   border-radius: 20px;
-  transition: background 0.3s, color 0.3s, transform 0.3s;
+  text-decoration: none;
+  text-transform: capitalize;
+  box-shadow: var(--box-shadow);
+  transition: background 0.3s, color 0.3s;
 }
 
 .about-buttons button:hover {
-  background: var(--accent-color);
-  color: #fff;
-  transform: scale(1.05);
+  background: var(--primary-color);
+  color: white;
 }
 
-#connect {
-  background-color: #f9f9f9;
-  padding: 50px;
-  text-align: center;
-  border-top: 1px solid #ddd;
+@media (max-width: 767px) {
+  .about-circle-photo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .about-header {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+
+  .about-buttons button {
+    padding: 10px 20px;
+    margin: 0 5px;
+  }
 }
 
-#connect h2 {
-  margin-bottom: 20px;
-}
-
-.social-links a {
-  display: block;
-  margin-bottom: 20px;
-  color: var(--accent-color);
-}
 #left-box {
   background-color: #f5f2fe;
   padding: 100px;

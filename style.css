@@ -161,40 +161,27 @@ p {
 .hero p {
   font-size: 1.2em;
 }
-#skills {
-  background-color: #f5f5f5;
-  padding: 50px 0;
-}
 
-.skill-item {
-  margin-bottom: 30px;
-}
-
-.skill-item h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.progress {
-  height: 20px;
-  border-radius: 10px;
-  background-color: #ddd;
-}
-
-.progress-bar {
-  border-radius: 10px;
-}
 .about-header {
-  font-size: 36px; /* Adjust the font size for the about page header */
-  margin-top: 100px; /* Adjust the top margin for the about page header */
+  font-size: 36px;
+  margin-top: 100px;
 }
 
 .about-circle-photo {
   border-radius: 50%;
-  width: 100px; /* Adjust the width of the circular photo */
-  height: 100px; /* Adjust the height of the circular photo */
-  margin: 20px auto; /* Center the circular photo and add margin */
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
   display: block;
+}
+
+.about-paragraphs {
+  border-bottom: 1px solid #ddd;
+  padding: 30px;
+}
+
+.about-paragraphs p {
+  margin: 10px;
 }
 
 .about-buttons {
@@ -206,23 +193,30 @@ p {
   margin: 0 10px;
   padding: 10px 20px;
   border-radius: 20px;
+  transition: background 0.3s, color 0.3s, transform 0.3s;
 }
 
-@media (max-width: 767px) {
-  .about-circle-photo {
-    width: 80px; /* Adjust the width of the circular photo for smaller screens */
-    height: 80px; /* Adjust the height of the circular photo for smaller screens */
-  }
+.about-buttons button:hover {
+  background: var(--accent-color);
+  color: #fff;
+  transform: scale(1.05);
+}
 
-  .about-header {
-    font-size: 24px; /* Adjust the font size for smaller screens */
-    margin-top: 10px; /* Adjust the top margin for smaller screens */
-  }
+#connect {
+  background-color: #f9f9f9;
+  padding: 50px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
 
-  .about-buttons button {
-    padding: 8px 16px; /* Adjust button padding for smaller screens */
-    margin: 0 5px; /* Adjust button margin for smaller screens */
-  }
+#connect h2 {
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  display: block;
+  margin-bottom: 20px;
+  color: var(--accent-color);
 }
 #left-box {
   background-color: #f5f2fe;

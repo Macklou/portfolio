@@ -27,6 +27,7 @@ footer {
   background-color: var(--secondary-color);
   padding: 20px;
   z-index: 1000; /* Add this line to ensure the box appears on top of other elements */
+  text-align: center;
 }
 .content {
   flex-grow: 1;

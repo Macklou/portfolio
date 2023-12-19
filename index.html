@@ -1,338 +1,376 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="description"
-      content="About Louise Charlotte, a front-end developer based in the UK"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Front End Developer | App development projects</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/eba2846bb6.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    body>
-    <header class="header">
-      <div class="header__content">
-        <div class="header__logo-container">
-          <div class="header__logo-img-cont">
-            <img
-              src="images/picture.jpeg"
-              alt="Louise Charlotte Logo Image"
-              class="header__logo-img"
-            />
-          </div>
-          <span class="header__logo-sub">Louise Charlotte</span>
-        </div>
-        <div class="header__main">
-          <ul class="header__links">
-            <li class="header__link-wrapper">
-              <a href="./" class="header__link"> Home </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./#about" class="header__link">About </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./#projects" class="header__link"> Projects </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./#contact" class="header__link"> Contact </a>
-            </li>
-          </ul>
-          <div class="header__main-ham-menu-cont">
-            <img
-              src="https://d33wubrfki0l68.cloudfront.net/79e75114856ae61628d2ad26504e3ff4ab2c71b6/f06a4/assets/svg/ham-menu.svg"
-              alt="hamburger menu"
-              class="header__main-ham-menu"
-            />
-            <img
-              src="https://d33wubrfki0l68.cloudfront.net/de2a681c8ca1630b29949b3a34bf158a686a0554/6a0ec/assets/svg/ham-menu-close.svg"
-              alt="hamburger menu close"
-              class="header__main-ham-menu-close d-none"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="header__sm-menu">
-        <div class="header__sm-menu-content">
-          <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
-              <a href="./"> Home </a>
-            </li>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+  <title>Louise Charlotte Portfolio</title>
+  <meta name="description" content="Louise Charlotte Front End Developer Portfolio" />
+</head>
 
-            <li class="header__sm-menu-link">
-              <a href="./#about"> About </a>
-            </li>
+<body>
+  <header class="main-header">
+    <div class="main-header__logo-container">
+      <div class="main-header__logo-img-cont">
+        <img
+          src="images/picture.jpeg"
+          alt="logo Image" class="main-header__logo-img" />
+      </div>
+      <h4 class="main-header__logo-text">Louise Charlotte</h4>
+    </div>
+    <nav class="main-header__navigation">
+      <ul class="main-header__navigation-links">
+        <li class="main-header__navigation-link"><a href="./index.html"> Home </a></li>
+        <li class="main-header__navigation-link"><a href="./index.html#about"> About </a></li>
+        <li class="main-header__navigation-link">
+          <a href="./index.html#projects"> Projects </a>
+        </li>
+        <li class="main-header__navigation-link"><a href="./index.html#contact" href=""> Contact </a></li>
+      </ul>
+    </nav>
+    <div class="main-header__sm-scr-nav-btn">
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+    </div>
+    <div class="main-header__sm-menu">
+      <div class="main-header__sm-menu-close">
 
-            <li class="header__sm-menu-link">
-              <a href="./#projects"> Projects </a>
-            </li>
+      </div>
+      <ul class="main-header__sm-menu-links">
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--1" name="home-hero">Home</a>
+        </li>
 
-            <li class="header__sm-menu-link">
-              <a href="./#contact"> Contact </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
-    <section class="home-hero">
-      <div class="home-hero__content">
-        <h1 class="heading-primary">Hey, I'm Louise Cahrlotte</h1>
-        <div class="home-hero__info">
-          <p class="text-primary">
-            A Frontend focused Web Developer building the Frontend of Websites
-            and Web Applications
-          </p>
-        </div>
-        <div class="home-hero__cta">
-          <a href="./#projects" class="btn btn--bg">Projects</a>
-        </div>
-      </div>
-      <div class="home-hero__socials">
-        <div class="home-hero__social">
-          <a
-            href="https://linkedin.com/in/charlottelouise"
-            class="home-hero__social-icon-link"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <img
-              src="https://d33wubrfki0l68.cloudfront.net/d8e6e1e636531e28274a1b8b6d947b817f6145bd/d42d3/assets/svg/linkedin-dark.svg"
-              alt="Louise Charlotte Linkedin Profile"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--2" name="about">About</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--3" name="projects">Projects</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--4" name="contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <!-- <button class="btn btn-theme btn-sm">Download CV</button> -->
+  </header>
 
-        <div class="home-hero__social">
-          <a
-            href="https://github.com/Macklou"
-            class="home-hero__social-icon-link"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <img
-              src="https://d33wubrfki0l68.cloudfront.net/38469cf88d038b6ba3322c9fcb93a8f7167df4b9/cb0b9/assets/svg/github-dark.svg"
-              alt="Louise Charlotte Github Profile"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-      </div>
-      <div class="home-hero__mouse-scroll-cont">
-        <div class="mouse"></div>
-      </div>
-    </section>
-    <section id="about" class="about sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main">About Me</span>
-          <span class="heading-sec__sub">
-            Here you will find more information about me, what I do, and my
-            current skills mostly in terms of programming and technology
+  <!--Remove or Comment out this theme selector code when you are done with choosing the right color for your theme so this color selector don't appear when you host the site online-->
+  <div class="themeClrSelector">
+    <input placeholder="Color Selector" type="color" value="#1DA1F2" class="themeClrSelector__input" />
+    <img alt="theme color tester" src="https://img.icons8.com/fluent/48/000000/rgb-circle-1.png"
+      class="themeClrSelector__img" />
+  </div>
+  <!---->
+
+  <section id="home-hero" class="home-hero">
+    <div class="home-hero__content">
+      <div class="home-hero__info">
+        <h1 class="heading-primary home-hero__heading-primary">
+          <span class="heading-primary__sm"> Hey 👋</span>
+          <span class="heading-primary__main">
+            I'm Louise Cahrlotte! Front End Developer that likes to make things
           </span>
-        </h2>
-        <div class="about__content">
-          <div class="about__content-main">
-            <h3 class="about__content-title">Get to know me!</h3>
-            <div class="about__content-details">
-              <p class="about__content-details-para">
-                I'm a <strong>Frontend Web Developer</strong> building the
-                Front-end of Websites and Web Applications.Check out some of my
-                work in the <strong>Projects</strong> section.
-              </p>
-              <p class="about__content-details-para">
-                more info about me check out my linkedin
-                <a
-                  rel="noreferrer"
-                  href="https://linkedin.com/in/charlottelouise"
-                  target="_blank"
-                  >Linkedin</a
-                >
-              </p>
-              <p class="about__content-details-para">
-                I'm open to <strong>Job</strong> opportunities where I can
-                contribute, learn and grow. If you have a good opportunity that
-                matches my skills and experience then don't hesitate to
-                <strong>contact</strong> me.
-              </p>
-            </div>
-          </div>
-          <div class="about__content-skills">
-            <h3 class="about__content-title">My Skills</h3>
-            <div class="skills">
-              <div class="skills__skill">HTML</div>
-              <div class="skills__skill">CSS</div>
-              <div class="skills__skill">JavaScript</div>
-              <div class="skills__skill">React</div>
-              <div class="skills__skill">Python</div>
-              <div class="skills__skill">GIT</div>
-              <div class="skills__skill">Github</div>
-              <div class="skills__skill">Responsive Design</div>
-              <div class="skills__skill">SEO</div>
-
-              <div class="skills__skill">SQL Basics</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="projects" class="projects sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">Projects</span>
-          <span class="heading-sec__sub">
-            Here you will find some of the personal projects that I created.
-          </span>
-        </h2>
-
-        <div class="projects__content">
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="images/ai.png"
-                alt="AI Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">AI Quote Generator</h3>
-              <p class="projects__row-content-desc">
-                Looking for the perfect quote, simply enter a prompt and the
-                perfect quote will be generated for you
-              </p>
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="images/clock.png"
-                alt="Work Clock Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">World Clock</h3>
-              <p class="projects__row-content-desc">
-                This world clock will give you the time you need, and update the
-                picture to the releavnt city
-              </p>
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="images/weather.png"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Weather App</h3>
-              <p class="projects__row-content-desc">
-                This weather app gives you the live weather and a 5 day forecast
-              </p>
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="https://d33wubrfki0l68.cloudfront.net/74f6186aaa2b6d5f6ea6da1013abfeb672f5c807/aee81/assets/jpeg/crown-template.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="contact" class="contact sec-pad dynamicBg">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
-          <span class="heading-sec__sub heading-sec__sub--lt">
-            Feel free to Contact me and I will get back to you as soon as
-            possible
-          </span>
-        </h2>
-        <div id="contact" class="mt-5">
-          <h2 class="text-center">📮 Contact me</h2>
-          <a href="mailto:charlottelouisecodes@gmail.com" class="email-link">
-            charlottelouisecodes@gmail.com
-          </a>
-        </div>
-      </div>
-    </section>
-    <footer class="main-footer">
-      <div class="main-container">
-        <div class="main-footer__upper">
-          <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
-            </h2>
-            <div class="main-footer__social-cont">
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://linkedin.com/in/charlottelouise"
-              >
-                <img
-                  class="main-footer__icon"
-                  src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png"
-                  alt="Louise Charlotte Linkedin Profile"
-                />
-              </a>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/macklou"
-              >
-                <img
-                  class="main-footer__icon"
-                  src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png"
-                  alt="RammCodes Github Profile"
-                />
-              </a>
-              
-                
-
-              
-              
-            </div>
-          </div>
-         <!-- Footer -->
-        <footer class="mt-5">
-          &copy; 2023 Louise Charlotte This page was created by
-          <a href="https://www.linkedin.com/in/charlottemackin" target="_blank"
-            >yours truly</a
-          >. Open sourced on
-          <a href="https://github.com/Macklou" target="_blank">GitHub</a>,
-          hosted by
-          <a href="https://www.netlify.com/" target="_blank">Netlify</a>.
-        </footer>
+        </h1>
+        <button class="btn btn-theme home-hero__btn-theme">Projects</button>
+        <button class="btn btn-inv home-hero__btn-theme">Contact</button>
       </div>
     </div>
-  </body>
+  </section>
+  <section id="about" class="about main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> About 🦄</span>
+        <span class="heading-secondary__main">
+          Here you will find more information about me, what I do, and list of my current skills in programming
+      </h2>
+      <div class="main-section__content">
+        <div class="about__info">
+          <div class="about__main-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              My Story
+            </h3>
+            <p class="text-primary about__text-primary">
+              <span>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Error, aliquid! Itaque corrupti magnam fugiat mollitia labore
+                magni saepe veritatis voluptatum alias fugit. Explicabo
+                ducimus sequi aut corporis odio repellendus? Lorem ipsum dolor
+                sit amet
+              </span>
+              <span>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Error, aliquid! Itaque corrupti magnam fugiat mollitia labore
+                magni saepe veritatis voluptatum alias fugit. Explicabo
+                ducimus sequi aut corporis odio repellendus? Lorem ipsum dolor
+                sit amet
+              </span>
+              <span>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Error, aliquid! Itaque corrupti magnam fugiat mollitia labore
+                magni saepe veritatis voluptatum alias fugit. Explicabo
+                ducimus sequi aut corporis odio repellendus? Lorem ipsum dolor
+                sit amet
+              </span>
+            </p>
+            <button class="btn btn-theme about__btn-theme">Projects</button>
+          </div>
+          <div class="about__skill-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              My Skills
+            </h3>
+            <ul class="about__skills">
+              <li class="about__skill">html</li>
+              <li class="about__skill">css</li>
+              <li class="about__skill">javascript</li>
+              <li class="about__skill">react</li>
+              
+              <li class="about__skill">git</li>
+              <li class="about__skill">vscode</li>
+              
+              <li class="about__skill">react</li>
+              
+              <li class="about__skill">git</li>
+              <li class="about__skill">vscode</li>
+              <li class="about__skill">python</li>
+              <li class="about__skill">javascript</li>
+              <li class="about__skill">react</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills-showcase">
+    <ul class="skills-showcase__list">
+      <li class="skills-showcase__list-item">
+        <i class="devicon-html5-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-css3-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-javascript-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-react-original"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-sass-original"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-nodejs-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-git-plain"></i>
+      </li>
+
+      <li class="skills-showcase__list-item">
+        <i class="devicon-android-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-python-plain"></i>
+      </li>
+    </ul>
+  </section>
+  <section id="projects" class="projects main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> Projects 🛠️</span>
+        <span class="heading-secondary__main">
+          Here you will find some of the personal projects that I have worked on
+        </span>
+      </h2>
+      <div class="main-section__content">
+        <div class="projects__list">
+          <div class="projects__list-item">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 1 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="images/ai.png" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                AI Quote Generator
+              </h3>
+              
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Error, aliquid! Itaque corrupti magnam fugiat mollitia
+                  labore magni saepe veritatis voluptatum alias fugit.
+                  Explicabo ducimus
+                </span>
+                <!-- <br />
+                  <br /> -->
+                <span>
+                  sapiente aut corporis odio repellendus? Lorem ipsum dolor
+                  sit amet, consectetur adipisicing elit
+                </span>
+              </p>
+              <button class="btn btn-theme projects__btn-theme">
+                Live Link
+              </button>
+              <button class="btn btn-inv projects__btn-inv">Code Link</button>
+            </div>
+          </div>
+          <div class="projects__list-item projects__list-item--inv">
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="images/clock.png" alt="clock Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                World Clock 
+              </h3>
+              <!-- <hr class="projects__title-text-divider" /> -->
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Error, aliquid! Itaque corrupti magnam fugiat mollitia
+                  labore magni saepe veritatis voluptatum alias fugit.
+                  Explicabo ducimus
+                </span>
+                <!-- <br />
+                  <br /> -->
+                <span>
+                  sapiente aut corporis odio repellendus? Lorem ipsum dolor
+                  sit amet, consectetur adipisicing elit
+                </span>
+              </p>
+              <button class="btn btn-theme projects__btn-theme">
+                Live Link
+              </button>
+              <button class="btn btn-inv projects__btn-inv">Code Link</button>
+            </div>
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 2 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+          </div>
+          <div class="projects__list-item">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 3 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="images/weather.png" alt="weather Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Weather Forecast App
+              </h3>
+              <!-- <hr class="projects__title-text-divider" /> -->
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Error, aliquid! Itaque corrupti magnam fugiat mollitia
+                  labore magni saepe veritatis voluptatum alias fugit.
+                  Explicabo ducimus
+                </span>
+                <!-- <br />
+                  <br /> -->
+                <span>
+                  sapiente aut corporis odio repellendus? Lorem ipsum dolor
+                  sit amet, consectetur adipisicing elit
+                </span>
+              </p>
+              <button class="btn btn-theme projects__btn-theme">
+                Live Link
+              </button>
+              <button class="btn btn-inv projects__btn-inv">Code Link</button>
+            </div>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+     <div class="about-buttons">
+            <button
+              onclick="window.location.href='mailto:charlottelouisecodes@gmail.com';"
+            >
+              Get in Touch
+            </button>
+            <button onclick="window.location.href='work.html';">My Work</button>
+          </div>
+          <section id="skills" class="mt-5">
+            <!-- ... (your existing skills section) ... -->
+          </section>
+
+          <div id="contact" class="mt-5">
+            <h2 class="text-center">📮 Contact me</h2>
+            <a href="mailto:charlottelouisecodes@gmail.com" class="email-link">
+              charlottelouisecodes@gmail.com
+            </a>
+          </div>
+  <footer class="main-footer">
+    <div class="main-footer__upper">
+      <div class="main-container">
+        <ul class="main-footer__links">
+          <li class="main-footer__link">
+            <a href="./index.html">Home</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#about">About</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#projects">Projects</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="main-footer__mid-line"></div>
+        <div class="main-footer__socials">
+          <a href="#" class="main-footer__social-link">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="#" class="main-footer__social-link">
+            <img src="./assets/icons8-instagram-48.png" alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="#" class="main-footer__social-link">
+            <img src="./assets/icons8-twitter-50.png" alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="#" class="main-footer__social-link">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="#" class="main-footer__social-link">
+            <img src="./assets/icons8-pinterest-64.png" alt="" class="main-footer__social-link-icon" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="main-footer__bottom">
+      <div class="main-container">
+        <p class="main-footer__bottom-txt">
+          <!-- If you can give me some credits or shoutout here by linking to my website, then that will help me a lot :) -->
+          <a target="_blank" href="https://github.com/rammcodes/wowfolio">WowFolio</a> Open-Source Template
+          <script>document.write(new Date().getFullYear())</script>. Made by
+          <a target="_blank" href="https://rammaheshwari.com">Ram Maheshwari</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
 </html>
-     

@@ -7,7 +7,6 @@
 
 :root {
   --themeColor: 29, 161, 242;
-  /* Theme Color in (R,G,B) format */
 }
 
 html {
@@ -15,33 +14,23 @@ html {
   scroll-behavior: smooth;
 }
 
-/* 75em === 1200px */
 @media (max-width: 75em) {
   html {
     font-size: 60%;
   }
 }
 
-/* 56.25em === 900px */
 @media (max-width: 56.25em) {
   html {
     font-size: 58%;
   }
 }
 
-/* 37.5em === 600px */
 @media (max-width: 37.5em) {
   html {
     font-size: 56%;
   }
 }
-
-/* 112.5em === 1600px */
-/* @media (min-width: 112.5em) {
-  html {
-    font-size: 65%;
-  }
-} */
 
 body {
   font-family: "PT Sans", sans-serif;
@@ -55,8 +44,6 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
-/* Utils */
 
 .btn {
   font-family: inherit;
@@ -977,4 +964,5 @@ footer {
   margin-top: 20px;
   text-align: center;
   color: #666;
+  font-weight: 700;
 }

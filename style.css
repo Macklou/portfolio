@@ -973,3 +973,8 @@ a {
   left: 0;
   z-index: 1;
 }
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #666;
+}

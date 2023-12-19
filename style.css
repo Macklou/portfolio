@@ -224,3 +224,17 @@ p {
     margin: 0 5px; /* Adjust button margin for smaller screens */
   }
 }
+#left-box {
+  background-color: #f5f5f5; /* Add a background color for the left box */
+  padding: 20px;
+  text-align: center;
+}
+
+#connect h2 {
+  margin-bottom: 20px; /* Add some space below the "Let's Connect" heading */
+}
+
+.social-links a {
+  display: block;
+  margin-bottom: 10px; /* Add a small gap between social links */
+}

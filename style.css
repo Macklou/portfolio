@@ -96,14 +96,13 @@ p {
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
-  justify-content: center;
-  flex-direction: column; /* Add this line to stack items vertically */
-  align-items: center; /* Add this line to center items horizontally */
+  flex-direction: column;
+  align-items: center;
 }
 
 .navigation-links a {
-  margin: 20px;
+  margin: 10px; /* Adjust the margin for better spacing */
+  width: 150px; /* Set a fixed width for consistency */
 }
 
 .primary-link {

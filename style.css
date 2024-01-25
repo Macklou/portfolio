@@ -995,3 +995,14 @@ a {
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.5);
 }
+.app-projects {
+  /* Add your specific styles here */
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.app-projects__heading-primary {
+  /* Add any specific heading styles here */
+  color: #555;
+  font-size: 4rem;
+}

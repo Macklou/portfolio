@@ -989,3 +989,9 @@ a {
   text-align: center;
   margin-top: 2rem;
 }
+.home-hero {
+  background-image: url("images/hero-bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+}
